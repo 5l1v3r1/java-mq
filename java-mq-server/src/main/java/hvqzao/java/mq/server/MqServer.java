@@ -5,6 +5,7 @@ import java.io.FileInputStream;
 import java.security.KeyStore;
 import java.security.SecureRandom;
 import javax.net.ssl.KeyManagerFactory;
+import javax.net.ssl.SSLContext;
 import javax.net.ssl.TrustManagerFactory;
 import org.apache.activemq.broker.SslBrokerService;
 import org.apache.activemq.broker.SslContext;
